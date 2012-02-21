@@ -43,10 +43,10 @@ A simple PHP storage registry.
 <code>
     // store a value
     $value1 = 'Hello World!'
-    $value2 = 'It's a great day.'
+    $value2 = "It's a great day."
     registry::getInstance()
         ->set('mykey1', $value1)
-        ->set('mykey2, $value2)
+        ->set('mykey2', $value2)
     ;
 </code>
 </pre>
