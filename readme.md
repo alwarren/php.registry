@@ -55,7 +55,7 @@ A simple PHP storage registry.
 
 <pre>
 <code>
-    if registry::contains('mykey')
+    if (registry::contains('mykey'))
     {
         // do something
     }
